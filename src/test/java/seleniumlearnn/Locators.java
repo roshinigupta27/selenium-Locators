@@ -14,6 +14,7 @@ public class Locators {
 		WebDriver driver = new ChromeDriver();
 		// implicit wait
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+		//second commit
 
 		// url
 		driver.get("https://rahulshettyacademy.com/locatorspractice/");
